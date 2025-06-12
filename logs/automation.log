@@ -1,0 +1,29 @@
+2025-06-12 15:13:14 INFO  Utils:112 - [TestNG] Running:
+  D:\Java\Opencart\Grouping.xml
+
+2025-06-12 15:13:23 INFO  TC001_AccountRegistrationTest:16 - *** Starting TC001_AccountRegistrationTest ***
+2025-06-12 15:13:24 INFO  TC001_AccountRegistrationTest:22 - Clicked on MyAccount Link...
+2025-06-12 15:13:25 INFO  TC001_AccountRegistrationTest:26 - Clicked on Register Link...
+2025-06-12 15:13:25 INFO  TC001_AccountRegistrationTest:30 - Providing customer details...
+2025-06-12 15:13:27 INFO  TC001_AccountRegistrationTest:44 - Validating expected message ...
+2025-06-12 15:13:27 INFO  TC001_AccountRegistrationTest:65 - *** Finished TC001_AccountRegistrationTest ***
+2025-06-12 15:13:34 INFO  TC002_LoginTest:16 - *** Starting TC002_LoginTest ***
+2025-06-12 15:13:37 INFO  TC002_LoginTest:41 - *** Finished TC002_LoginTest ***
+2025-06-12 15:13:42 INFO  TC004_SearchProductTest:17 - Starting TC004_SearchProductTest
+2025-06-12 15:13:45 INFO  TC004_SearchProductTest:33 - Finished TC004_SearchProductTest
+2025-06-12 15:13:51 INFO  TC005_AddToCartPageTest:15 - Starting TC005_AddToCartPageTest
+2025-06-12 15:14:45 INFO  Utils:112 - [TestNG] Running:
+  D:\Java\Opencart\Grouping.xml
+
+2025-06-12 15:14:52 INFO  TC001_AccountRegistrationTest:16 - *** Starting TC001_AccountRegistrationTest ***
+2025-06-12 15:14:52 INFO  TC001_AccountRegistrationTest:22 - Clicked on MyAccount Link...
+2025-06-12 15:14:53 INFO  TC001_AccountRegistrationTest:26 - Clicked on Register Link...
+2025-06-12 15:14:53 INFO  TC001_AccountRegistrationTest:30 - Providing customer details...
+2025-06-12 15:14:56 INFO  TC001_AccountRegistrationTest:44 - Validating expected message ...
+2025-06-12 15:14:56 INFO  TC001_AccountRegistrationTest:65 - *** Finished TC001_AccountRegistrationTest ***
+2025-06-12 15:15:04 INFO  TC002_LoginTest:16 - *** Starting TC002_LoginTest ***
+2025-06-12 15:15:08 INFO  TC002_LoginTest:41 - *** Finished TC002_LoginTest ***
+2025-06-12 15:15:15 INFO  TC004_SearchProductTest:17 - Starting TC004_SearchProductTest
+2025-06-12 15:15:17 INFO  TC004_SearchProductTest:33 - Finished TC004_SearchProductTest
+2025-06-12 15:15:23 INFO  TC005_AddToCartPageTest:15 - Starting TC005_AddToCartPageTest
+2025-06-12 15:15:28 INFO  TC005_AddToCartPageTest:45 - Finished TC005_AddToCartPageTest
