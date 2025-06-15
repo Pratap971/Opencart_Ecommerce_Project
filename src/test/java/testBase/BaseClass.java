@@ -23,6 +23,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -32,10 +33,12 @@ public class BaseClass {
     public WebDriver driver;
     public Logger logger;
     public Properties p;
+    
+    
 
     @BeforeClass(groups = { "Sanity", "Regression", "Master" })
     @Parameters({ "os", "browser" })
-    public void setup(String os, String br) throws IOException {
+    public void setup(@Optional("windows") String os, @Optional("chrome") String br) throws IOException {
         // Load config.properties
         FileReader file = new FileReader("./src/test/resources/config.properties");
         p = new Properties();
@@ -95,7 +98,7 @@ public class BaseClass {
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
-        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
+        String targetFilePath = System.getProperty("user.dir") + "/screenshots/" + tname + "_" + timeStamp + ".png";
         File targetFile = new File(targetFilePath);
 
         sourceFile.renameTo(targetFile);
